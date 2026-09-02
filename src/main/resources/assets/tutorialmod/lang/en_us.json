@@ -1,4 +1,7 @@
 {
   "item.tutorialmod.storm_shard": "Storm Shard",
-  "item.tutorialmod.voidheart_core": "VoidHeart Core"
+  "item.tutorialmod.voidheart_core": "VoidHeart Core",
+
+  "block.tutorialmod.stormshard_block": "Stormshard Block",
+  "block.tutorialmod.voidheart_beacon": "Voidheart Beacon"
 }
