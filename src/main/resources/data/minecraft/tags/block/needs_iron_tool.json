@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:platinum_block",
+    "tutorialmod:raw_platinum_block",
+    "tutorialmod:platinum_ore",
+    "tutorialmod:platinum_deepslate_ore"
+
+  ]
+
+}

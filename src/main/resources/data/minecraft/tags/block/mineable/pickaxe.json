@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:stormshard_block",
+    "tutorialmod:voidheart_beacon",
+    "tutorialmod:platinum_block",
+    "tutorialmod:raw_platinum_block",
+    "tutorialmod:platinum_ore",
+    "tutorialmod:platinum_deepslate_ore"
+
+  ]
+
+}

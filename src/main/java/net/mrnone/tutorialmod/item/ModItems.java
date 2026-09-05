@@ -14,6 +14,8 @@ public class ModItems {
     public static final RegistryObject<Item> VOIDHEART_CORE = ITEMS.register("voidheart_core", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STORM_SHARD = ITEMS.register("storm_shard", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_PLATINUM = ITEMS.register("raw_platinum", () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

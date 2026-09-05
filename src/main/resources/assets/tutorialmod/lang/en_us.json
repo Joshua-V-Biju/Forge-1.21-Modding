@@ -1,7 +1,17 @@
 {
   "item.tutorialmod.storm_shard": "Storm Shard",
   "item.tutorialmod.voidheart_core": "VoidHeart Core",
+  "item.tutorialmod.platinum_ingot": "Platinum Ingot",
+  "item.tutorialmod.raw_platinum": "Raw Platinum",
 
   "block.tutorialmod.stormshard_block": "Stormshard Block",
-  "block.tutorialmod.voidheart_beacon": "Voidheart Beacon"
+  "block.tutorialmod.voidheart_beacon": "Voidheart Beacon",
+  "block.tutorialmod.platinum_block": "Platinum Block",
+  "block.tutorialmod.raw_platinum_block": "Raw Platinum Block",
+  "block.tutorialmod.platinum_ore": "Platinum Ore",
+  "block.tutorialmod.platinum_deepslate_ore": "Platinum Deepslate Ore",
+
+
+  "creativetab.tutorialmod.neonvoid_items": "NeonVoid Items",
+  "creativetab.tutorialmod.neonvoid_blocks": "NeonVoid Blocks"
 }

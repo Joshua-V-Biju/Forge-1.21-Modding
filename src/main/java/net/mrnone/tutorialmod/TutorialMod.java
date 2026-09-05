@@ -16,6 +16,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.mrnone.tutorialmod.block.ModBlocks;
+import net.mrnone.tutorialmod.item.ModCreativeModeTabs;
 import net.mrnone.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -36,6 +37,8 @@ public class TutorialMod
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
@@ -59,11 +62,17 @@ public class TutorialMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.VOIDHEART_CORE);
             event.accept(ModItems.STORM_SHARD);
+            event.accept(ModItems.PLATINUM_INGOT);
+            event.accept(ModItems.RAW_PLATINUM);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.STORMSHARD_BLOCK);
             event.accept(ModBlocks.VOIDHEART_BEACON);
+            event.accept(ModBlocks.PLATINUM_BLOCK);
+            event.accept(ModBlocks.RAW_PLATINUM_BLOCK);
+            event.accept(ModBlocks.PLATINUM_ORE);
+            event.accept(ModBlocks.PLATINUM_DEEPSLATE_ORE);
         }
 
 
