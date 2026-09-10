@@ -23,6 +23,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.VOIDHEART_CORE.get());
                         output.accept(ModItems.PLATINUM_INGOT.get());
                         output.accept(ModItems.RAW_PLATINUM.get());
+                        output.accept(ModItems.CHISEL.get());
+                        output.accept(ModItems.STORMDUST_DONUT.get());
+                        output.accept(ModItems.NOVA_CORE.get());
 
                     }).build());
 
@@ -38,6 +41,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_PLATINUM_BLOCK.get());
                         output.accept(ModBlocks.PLATINUM_ORE.get());
                         output.accept(ModBlocks.PLATINUM_DEEPSLATE_ORE.get());
+                        output.accept(ModBlocks.ANCIENT_CRUCIBLE.get());
+
 
                     }).build());
 

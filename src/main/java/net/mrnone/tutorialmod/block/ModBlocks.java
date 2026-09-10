@@ -12,6 +12,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.mrnone.tutorialmod.TutorialMod;
+import net.mrnone.tutorialmod.block.custom.MagicBlock;
 import net.mrnone.tutorialmod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -37,6 +38,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> PLATINUM_DEEPSLATE_ORE = registerBlock("platinum_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(2,4),BlockBehaviour.Properties.of().strength(.5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
+    public static final RegistryObject<Block> ANCIENT_CRUCIBLE = registerBlock("ancient_crucible",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

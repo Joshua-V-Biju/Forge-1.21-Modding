@@ -3,6 +3,9 @@
   "item.tutorialmod.voidheart_core": "VoidHeart Core",
   "item.tutorialmod.platinum_ingot": "Platinum Ingot",
   "item.tutorialmod.raw_platinum": "Raw Platinum",
+  "item.tutorialmod.chisel": "Chisel",
+  "item.tutorialmod.stormdust_donut": "Stormdust Donut",
+
 
   "block.tutorialmod.stormshard_block": "Stormshard Block",
   "block.tutorialmod.voidheart_beacon": "Voidheart Beacon",
@@ -10,6 +13,7 @@
   "block.tutorialmod.raw_platinum_block": "Raw Platinum Block",
   "block.tutorialmod.platinum_ore": "Platinum Ore",
   "block.tutorialmod.platinum_deepslate_ore": "Platinum Deepslate Ore",
+  "block.tutorialmod.ancient_crucible": "Ancient Crucible",
 
 
   "creativetab.tutorialmod.neonvoid_items": "NeonVoid Items",

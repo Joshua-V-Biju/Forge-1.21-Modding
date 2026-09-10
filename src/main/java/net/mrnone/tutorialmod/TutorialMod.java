@@ -64,6 +64,7 @@ public class TutorialMod
             event.accept(ModItems.STORM_SHARD);
             event.accept(ModItems.PLATINUM_INGOT);
             event.accept(ModItems.RAW_PLATINUM);
+            event.accept(ModItems.NOVA_CORE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
@@ -73,7 +74,17 @@ public class TutorialMod
             event.accept(ModBlocks.RAW_PLATINUM_BLOCK);
             event.accept(ModBlocks.PLATINUM_ORE);
             event.accept(ModBlocks.PLATINUM_DEEPSLATE_ORE);
+            event.accept(ModBlocks.ANCIENT_CRUCIBLE);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.CHISEL);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.STORMDUST_DONUT);
+        }
+
 
 
     }
