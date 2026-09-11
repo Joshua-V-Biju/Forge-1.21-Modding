@@ -5,6 +5,7 @@
   "item.tutorialmod.raw_platinum": "Raw Platinum",
   "item.tutorialmod.chisel": "Chisel",
   "item.tutorialmod.stormdust_donut": "Stormdust Donut",
+  "item.tutorialmod.nova_core": "Nova Core",
 
 
   "block.tutorialmod.stormshard_block": "Stormshard Block",
@@ -17,5 +18,11 @@
 
 
   "creativetab.tutorialmod.neonvoid_items": "NeonVoid Items",
-  "creativetab.tutorialmod.neonvoid_blocks": "NeonVoid Blocks"
+  "creativetab.tutorialmod.neonvoid_blocks": "NeonVoid Blocks",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This Block converts §2Stormshard§r or §2Voidheart Core§2 into a §3Netherite Ingot§r",
+  "tooltip.tutorialmod.chisel.shift_down": "This Item changes certain blocks §5:)§r",
+  "tooltip.tutorialmod.chisel": "Press §2Shift§r for More Info",
+  "tooltip.tutorialmod.nova_core": "This Extraordinary fuel source was crafted Indomitably by the Majestic Radiance of a Dying Star"
+
 }
