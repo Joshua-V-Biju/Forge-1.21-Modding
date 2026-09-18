@@ -17,6 +17,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.mrnone.tutorialmod.item.ModItems;
+import net.mrnone.tutorialmod.util.ModTags;
 
 import java.util.List;
 
@@ -34,13 +35,17 @@ public class MagicBlock extends Block {
     public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {
         super.stepOn(pLevel, pPos, pState, pEntity);
         if(pEntity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getItem().getItem() == ModItems.STORM_SHARD.get()){
+            if(isValidItem(itemEntity.getItem())) {
                 itemEntity.setItem(new ItemStack(Items.NETHERITE_INGOT, itemEntity.getItem().getCount()));
             }
             if(itemEntity.getItem().getItem() == ModItems.VOIDHEART_CORE.get()){
-                itemEntity.setItem(new ItemStack(Items.NETHERITE_INGOT, itemEntity.getItem().getCount()));
+                itemEntity.setItem(new ItemStack(Items.EMERALD, itemEntity.getItem().getCount()));
             }
         }
+    }
+
+    private boolean isValidItem(ItemStack item) {
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 
     @Override
